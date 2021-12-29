@@ -18,3 +18,28 @@ int main() {
 	}
 
 }
+задание номер 3
+	int arr[10];
+	for (int i = 0; i < 10; i++) {
+		int num = rand();
+		if (i == 0) {
+			
+			arr[i] = num % 2 == 1 ? num : num + 1;
+		}
+		else {
+			arr[i] = num;
+		}
+	
+		std::cout << arr[i] << std::endl;
+	}
+
+	int j = 0;
+	int sum = 0;
+	while (arr[j] % 2 == 1) {
+		sum += arr[j];
+		j++;
+
+	}
+
+	std::cout << sum << std::endl;
+}
