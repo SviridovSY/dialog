@@ -39,3 +39,17 @@ int main(){
 	}
 	return 0;
 }		
+
+
+
+
+
+
+	const int size = 5;
+	std::string words[5] = { "бульдог", "кирпич", "человечность", "сад", "врач" };
+	std::srand(time(NULL));
+	int random = rand() % size;
+	std::string word = words[random];
+	int length = word.size();
+	char array [length]
+	std::cout << word.size();
