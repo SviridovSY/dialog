@@ -326,7 +326,7 @@ int main() {
 
 задание номер 2
 	
-	#include <iostream>
+#include <iostream>
 #include <Windows.h>
 
 
@@ -361,13 +361,23 @@ int main() {
 	int minEL;
 
 	for (int i = 0; i < size; i++) {
-		arr[i] = rand() % 1000;
+		arr[i] = rand() % 10;
 	}
 	output(arr, size);
 	
 
 	for (int i = 0; i < size - 1; i++) {
-
+		bool flag = true;
+		for (int j = 1; j < size; j++) {
+			if (arr[i] == arr[j] && i != j) {
+				flag = false;
+				break;
+			}
+			
+		}
+		if (flag) {
+			std::cout << arr[i] << std::endl;
+		}
 	}
 
 }
