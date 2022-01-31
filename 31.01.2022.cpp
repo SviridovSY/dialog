@@ -35,4 +35,68 @@ int main() {
 }
 
 
-задание номер 2
+#include <iostream>
+#include <string>
+
+float value(int a) {
+    float b;
+    b = (a - 32)*5/9;
+    return b;
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "ВВедите Фарингейт: ";
+    float a;
+    std::cin >> a;
+    std::cout << value(a);
+}
+	
+
+
+задание 2
+	#include <iostream>
+#include <string>
+
+float value(int a) {
+    float b;
+    b = 25.4 * a;
+    return b;
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "Введите длину в дюймах: ";
+    float a;
+    std::cin >> a;
+    std::cout << value(a);
+}
+
+задание номер 3
+	
+
+	
+#include <iostream>
+#include <string>
+
+float value(int a) {
+    float b;
+    b =  1.60094 / a;
+    return b;
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "Введите длину в километрах: ";
+    float a;
+    std::cin >> a;
+    std::cout << value(a);
+}
+
+
+
+
+задание номер 4
+	
+	
+
