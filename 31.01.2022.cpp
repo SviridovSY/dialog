@@ -119,3 +119,22 @@ int main()
 
 
 задание номер 5
+
+	
+#include <iostream>
+#include <string>
+
+float value(int a) {
+    float b;
+    b = 3.14 * a * a;
+    return b;
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "Введите радиус и высоту: ";
+    float a, h;
+    std::cin >> a;
+    std::cin >> h;
+    std::cout << value(a) * h;
+}
