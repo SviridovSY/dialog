@@ -138,3 +138,32 @@ int main()
     std::cin >> h;
     std::cout << value(a) * h;
 }
+
+
+
+
+задание номер 6
+
+	
+#include <iostream>
+#include <string>
+
+void value(int a, int h) {
+    float b;
+    if (h < a) {
+        std::cout << a << std::endl;
+    }
+    else {
+        std::cout << h << std::endl;
+    }
+
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "введите два числа: ";
+    float a, h;
+    std::cin >> a;
+    std::cin >> h;
+    value(a, h);
+}
