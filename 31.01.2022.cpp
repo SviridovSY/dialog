@@ -197,3 +197,7 @@ int main()
     std::cin >> h;
     value(a, h);
 }
+
+
+
+
