@@ -99,4 +99,23 @@ int main()
 задание номер 4
 	
 	
+#include <iostream>
+#include <string>
 
+float value(int a) {
+    float b;
+    b = a * (136.4 / 1000);
+    return b;
+}
+int main()
+{
+    setlocale(0, "rus");
+    std::cout << "Введите длину в километрах: ";
+    float a;
+    std::cin >> a;
+    std::cout << value(a);
+}
+
+
+
+задание номер 5
