@@ -14,7 +14,7 @@ int main() {
 	int randomNumber2 = rand() % 6;
 	int brosok;
 	int brosok2;
-	int chislo;
+	int summa;
 	std::cout<< "Нажмите 1 чтобы бросить кубик" <<std::endl;
 	
 	for (int i = 0; i < 4; i++) {
@@ -24,7 +24,7 @@ int main() {
 		brosok = rand() % (6 - 1 + 1) + 1;
 		brosok2 = rand() % (6 - 1 + 1) + 1;
 		std::cout <<" Первый кубик" << brosok << std::endl;
-		std::cout << "Второй кубик " << brosok2 << std::endl;
+		std::cout << " Второй кубик " << brosok2 << std::endl;
 		
 		if (brosok == 1 ) {
 			std::cout << "________" <<std::endl;
@@ -101,7 +101,8 @@ int main() {
 			std::cout << "|*___*__|" << std::endl;
 
 		}
-		
+		summa = brosok + brosok2;
+		std::cout << " Сумма" << summa <<std::endl;
 
 	}
 }
