@@ -87,3 +87,25 @@ int main() {
 		std::cout<< " Нет похожих чисел" <<std::endl;
 	}
 }
+
+
+
+
+
+
+#include <iostream>
+#include <Windows.h>
+
+
+
+int main() {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+
+	srand(time(0));
+
+	int randomnumber = rand() % (1000000 - 100000 + 1) + 100000;
+	std::cout << randomnumber << std::endl;
+
+}
