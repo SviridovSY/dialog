@@ -1,0 +1,29 @@
+ int a, a1;
+    int b, b1;
+    int c, c1;
+    int d, d1;
+    int variant;
+    int cislo = 3210;
+    
+
+
+    a = 3210 / 1000;
+    std::cout << a << std::endl;
+    b = 3210 / 100 % 10;
+    std::cout << b << std::endl;
+    c = 3210 / 10 % 10;
+    d = 3210 % 10;
+    std::cout << c << std::endl;
+    std::cout << d << std::endl;
+
+    std::cin >> variant;
+    a1 = variant / 1000;
+    std::cout << a1 << std::endl;
+    b1 = variant / 100 % 10;
+    std::cout << b1 << std::endl;
+    c1 = variant / 10 % 10;
+    std::cout << c1 << std::endl;
+    d1 = variant % 10;
+    std::cout << d1 << std::endl;
+
+    
