@@ -42,6 +42,12 @@ int main() {
 задание номер 3
 	
 	
+
+	
+	
+	
+	
+	
 #include <iostream>
 
 
