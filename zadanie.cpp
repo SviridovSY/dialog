@@ -15,3 +15,25 @@ int main() {
 	}
 	
 }
+
+
+
+задание номер 2
+	
+
+	
+#include <iostream>
+
+
+
+
+int main() {
+	int a = 5;
+	int b = 0;
+	for (int i = 5; i < 13; i++) {
+		a += a * i;
+
+
+		std::cout << a << std::endl;
+	}
+   }
