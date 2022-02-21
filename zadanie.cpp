@@ -63,3 +63,25 @@ int main() {
 		std::cout << b << std::endl;
 	}
    }
+
+
+
+
+задание номер 4
+	
+	
+#include <iostream>
+
+
+
+
+int main() {
+	int a = 2;
+	float b = 0;
+	for (float i = 3; i < 11; i++) {
+		b += a / (i + i);
+
+
+		std::cout << b << std::endl;
+	}
+   }
