@@ -37,3 +37,23 @@ int main() {
 		std::cout << a << std::endl;
 	}
    }
+
+
+задание номер 3
+	
+	
+#include <iostream>
+
+
+
+
+int main() {
+	int a = 1;
+	int b = 0;
+	for (int i = 0; i < 113; i+=3) {
+		b += a + i;
+
+
+		std::cout << b << std::endl;
+	}
+   }
