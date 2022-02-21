@@ -85,3 +85,53 @@ int main() {
 		std::cout << b << std::endl;
 	}
    }
+
+
+
+задание номер 5
+	
+	
+	
+#include <iostream>
+
+
+
+
+int main() {
+	int a = 0;
+	float b = 0;
+	for (float i = 1; i < 101; i++) {
+		b += a + i;
+
+
+		std::cout << b << std::endl;
+	}
+   }
+
+
+
+
+
+
+ЗАДАНИЕ НОМЕР 7
+	
+	
+	
+	
+#include <iostream>
+
+
+
+
+int main() {
+	int a;
+	float b = 0;
+	std::cin >> a;
+	for (float i = 1; i < 10; i++) {
+		b += (i + 1) / (a + 1);
+
+
+		std::cout << b << std::endl;
+	}
+}
+
