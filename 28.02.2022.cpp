@@ -118,3 +118,29 @@ int main() {
 	ans = func1();
 	std::cout << ans << std::endl;
 }
+
+
+
+задание номер 5
+	
+	
+	
+#include <iostream>
+
+
+
+int f(int x, int y) {
+	return 456;
+}
+
+
+int f(int x) {
+	return 4345;
+}
+
+
+int main() {
+	int a{ 5 }, b{ 6 }, c{ 0 };
+	c = f(a);
+	std::cout << c << std::endl;
+}
