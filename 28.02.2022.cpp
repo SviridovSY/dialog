@@ -144,3 +144,25 @@ int main() {
 	c = f(a);
 	std::cout << c << std::endl;
 }
+
+
+
+задание номер 6
+	
+	
+#include <iostream>
+
+
+int f(int a, int b) {                               
+	return a + b;
+}
+
+double f(double x, double y) {
+	return x * y;
+}
+
+int main() {
+	std::cout << "S1 = " << f(3, 4) << std::endl;
+	std::cout << "S2 = " << f(20.5, 10.5) << std::endl;
+	return 0;
+}
