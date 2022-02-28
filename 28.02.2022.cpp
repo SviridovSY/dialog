@@ -96,3 +96,25 @@ int main(void) {
 
 	return 0;
 }
+
+
+
+задание номер 4
+	
+	
+#include <iostream>
+#include<cmath>
+
+int func1(int m2 = 5, int m1 = 6, int m0 = 7) {
+	int answer = 0;
+	answer += m2 * 100;
+	answer += m1 * 10;
+	answer += m0;
+	return answer;
+}
+
+int main() {
+	int a{ 4 }, b{ 3 }, c{ 8 }, ans{ 0 };
+	ans = func1();
+	std::cout << ans << std::endl;
+}
