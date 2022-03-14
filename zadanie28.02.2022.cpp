@@ -63,3 +63,30 @@ int main() {
 
 
 задание номер 3
+
+	
+	
+	
+#include <iostream>
+
+
+int func(int x) {
+    if (x > 0) {
+        std::cout << "True" << std::endl;
+    }
+    else if (x < 0) {
+        std::cout << "False" << std::endl;
+    }
+    return 0;
+}
+
+
+
+int main()
+{
+    int a;
+    int c;
+    std::cin >> a;
+    c = func(a);
+    std::cout << c << std::endl;
+}
