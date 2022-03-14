@@ -90,3 +90,89 @@ int main()
     c = func(a);
     std::cout << c << std::endl;
 }
+
+
+
+
+
+Задание номер 4
+	
+	
+	
+#include <iostream>
+#include <Windows.h>
+
+
+int plus(int x, int y, int z) {
+    z = x + y;
+    std::cout << z <<std::endl;
+    return 0;
+}
+int minus(int x, int y, int z) {
+    z = x - y;
+    std::cout << z << std::endl;
+    return 0;
+}
+int multi(int x, int y, int z) {
+    z = x * y;
+    std::cout << z << std::endl;
+    return 0;
+}
+int del(int x, int y, int z) {
+    z = x / y;
+    std::cout << z << std::endl;
+    return 0;
+}
+
+
+
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    std::cout << "Введите числа" << std::endl;
+    int a;
+    int b;
+    int u{ 0 };
+    int c{ 0 };
+    int g;
+    int h;
+    int j;
+    int d;
+    int odin;
+   
+  
+    std::cout << "Введите 1 если хотите сложить введенные числа" << std::endl;
+    std::cout << "Введите 2 если хотите вычесть введенные числа" << std::endl; 
+    std::cout << "Введите 3 если хотите умножить введенные числа" << std::endl; 
+    std::cout << "Введите 4 если хотите поделить введенные числа" << std::endl; 
+    std::cout << "Напишите сколько раз хотите воспользоваться функциями" << std::endl;
+    std::cin >> d;
+    for (int i = 0; i < d; i++) {   
+        std::cin >> a;
+    
+        std::cin >> b;
+       
+        std::cin >> odin; 
+        c = plus(a, b, u);
+        g = minus(a, b, u);
+        h = multi(a, b, u);
+        j = del(a, b, u);
+        if (odin == 1) {
+            std::cout << c << std::endl;
+        }
+        else if (odin == 2) {
+            std::cout << g << std::endl;
+        }
+        else if (odin == 3) {
+            std::cout << h << std::endl;
+        }
+        else if (odin == 4) {
+            std::cout << j << std::endl;
+        }
+        else {
+            std::cout << "Введено неверное число" << std::endl;
+        }
+    }
+
+}
