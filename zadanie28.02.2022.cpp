@@ -176,3 +176,42 @@ int main()
     }
 
 }
+
+
+задание номер 5
+	
+	
+	
+	
+	
+#include <iostream>
+#include <Windows.h>
+
+
+int rectangle(int x, int y) {
+    for (int i = 0; i < x; i++) {
+        std::cout << "-" << std::endl;
+        for (int j = 0; j < y; i++) {
+            std::cout << "|" << std::endl;
+        }
+    }
+    std::cout << std::endl;
+}
+
+
+
+
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int a;
+    int b;
+    int c;
+    int d;
+    std::cin >> a;
+    std::cin >> b;
+    d = rectangle(a, b);
+    std::cout << d << std::endl;
+
+}
