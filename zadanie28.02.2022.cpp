@@ -215,3 +215,31 @@ int main()
     std::cout << d << std::endl;
 
 }
+
+
+
+задание номер 7
+	
+	
+	
+#include <iostream>
+
+int prost(int x, int y){
+    for(int i = 1; i < x; i++){
+        x += x * i;
+        
+        std::cout << x << std::endl;
+    }
+    
+}
+
+
+
+int main(){
+    int a;
+    int b;
+    int c;
+    std::cin >> a;
+    c = prost(a, b);
+    std::cout << c <<std::endl;
+}
