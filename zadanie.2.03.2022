@@ -1,0 +1,26 @@
+задание номер 1
+
+#include <iostream>
+#include <cmath>
+
+
+
+int func(int x, int y, int z) {
+    z = pow(x, y);
+    return z;
+}
+
+
+int main()
+{
+    int a;
+    int c;
+    int b;
+    int g;
+    std::cout << "Vvedite osnovanie stepeni" << std::endl;
+    std::cin >> a;
+    std::cout << "Vvedite stepen" << std::endl;
+    std::cin >> b;
+    c = func(a, b, g);
+    std::cout << c << std::endl;
+}
