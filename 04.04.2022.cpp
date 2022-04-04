@@ -92,3 +92,43 @@ int main()
     getchar();
     return 0;
 }
+
+
+
+
+задание номер 4
+  
+  
+  
+  
+
+
+
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+struct data {
+    char* time_start;
+    int time_end;
+    int date;
+    int place;
+    int text;
+};
+
+
+
+
+
+int showdata(data date, data place) {
+    if (date == 1) {
+
+    }
+
+}
+
+int main()
+{
+
+}
