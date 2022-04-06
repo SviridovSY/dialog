@@ -1,0 +1,60 @@
+задание номер 1
+#include <iostream>
+
+
+
+int func(int judge1, int judge2, int judge3, int judge4, int judge5, int judge6, int judge7, int judge8) {
+    int a;
+    if (judge1 > 9 || judge1 < 2) {
+        a = (judge2 + judge3 + judge4 + judge5 + judge6 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge2 > 9 || judge2 < 2) {
+        a = (judge1 + judge3 + judge4 + judge5 + judge6 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge3 > 9 || judge3 < 2) {
+        a = (judge2 + judge1 + judge4 + judge5 + judge6 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge4 > 9 || judge4 < 2) {
+        a = (judge2 + judge3 + judge1 + judge5 + judge6 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge5 > 9 || judge5 < 2) {
+        a = (judge2 + judge3 + judge4 + judge1 + judge6 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge6 > 9 || judge6 < 2) {
+        a = (judge2 + judge3 + judge4 + judge5 + judge1 + judge7 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge7 > 9 || judge7 < 2) {
+        a = (judge2 + judge3 + judge4 + judge5 + judge6 + judge1 + judge8) / 7;
+        std::cout << a << std::endl;
+    }
+    else if (judge8 > 9 || judge8 < 2) {
+        a = (judge2 + judge3 + judge4 + judge5 + judge6 + judge7 + judge1) / 7;
+        std::cout << a << std::endl;
+    }
+    return 0;
+}
+
+
+
+
+int main()
+{
+    int judge1 = 8;
+    int judge2 = 8;
+    int judge3 = 9;
+    int judge4 = 9;
+    int judge5 = 10;
+    int judge6 = 10;
+    int judge7 = 8;
+    int judge8 = 8;
+    int a;
+    a = func(judge1, judge2, judge3, judge4, judge5, judge6, judge7, judge8);
+    std::cout << a << std::endl;
+}
+
