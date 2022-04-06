@@ -58,3 +58,54 @@ int main()
     std::cout << a << std::endl;
 }
 
+
+
+задание номер 2
+
+
+#include <iostream>
+
+
+
+int func(int judge1, int judge2, int judge3, int judge4, int judge5, int judge6, int judge7, int judge8) {
+    int a;
+    if (judge1 > 90 || judge2 > 90 || judge3 > 90 || judge4 > 90 || judge5 > 90 || judge6 > 90 || judge7 > 90 || judge8 > 90) {
+        return 5;
+    }
+    else if (judge1 > 70 && judge1 < 89 || judge2 > 70 && judge2 < 89 || judge3 > 70 && judge3 < 89 || judge4 > 70 && judge4 < 89 || judge5 > 70 && judge5 < 89 || judge6 > 70 && judge6 < 89 || judge7 > 70 && judge7 < 89 || judge8 > 70 && judge8 < 89) {
+        return 4;
+    }
+    else if (judge1 > 50 && judge1 < 69 || judge2 > 50 && judge2 < 69 || judge3 > 50 && judge3 < 69 || judge4 > 50 && judge4 < 69 || judge5 > 50 && judge5 < 69 || judge6 > 50 && judge6 < 69 || judge7 > 50 && judge7 < 69 || judge8 > 50 && judge8 < 69) {
+        return 3;
+    }
+    else {
+        return 2;
+    }
+}
+
+
+
+
+int main()
+{
+    int student1;
+    std::cin >> student1;
+    int student2;
+    std::cin >> student2;
+    int student3;
+    std::cin >> student3;
+    int student4;
+    std::cin >> student4;
+    int student5;
+    std::cin >> student5;
+    int student6;
+    std::cin >> student6;
+    int student7;
+    std::cin >> student7;
+    int student8;
+    std::cin >> student8;
+    int a;
+    a = func(student1,student2, student3, student4, student5, student6, student7, student8);
+    std::cout << a << std::endl;
+}
+
