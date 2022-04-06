@@ -30,4 +30,30 @@ int main()
 }
 
 
-задание номер 2
+задание номер 3
+#include <iostream>
+
+
+
+int func(int x) {
+    for (std::size_t i = 0; i < x; i++)
+    {
+        for (std::size_t j = 0; j <= i; j++)
+            std::cout << "*";
+        std::cout << std::endl;
+    }
+    return 0;
+}
+
+
+
+
+int main()
+{
+    int height;
+    std::cin >> height;
+    int a;
+    a = func(height);
+    std::cout << a << std::endl;
+}
+
